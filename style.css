@@ -1,0 +1,582 @@
+body,html{
+    margin: 0px;
+}
+header{
+    width:100%;
+    position: fixed;
+	z-index:2;
+   /* background-color: rgba(255,255,255,0.9);  */
+}
+.header-wrapper{
+    width: 100%;
+    max-width: 1720px;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 20px 38px 20px;
+}
+.header-logo{
+    display:flex;
+    margin-left: 50px;
+}
+.header-menu{
+    width: 100%;
+    max-width: 630px;
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.header-menu-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    cursor:pointer;
+	color: #191919;
+}
+.header-menu-text:hover{
+    color: #10c9c3;
+	text-decoration: none;
+}
+.banner{
+    width:100%; /*obrazek ma byc 670px a tutaj 412px */
+    display:flex;
+    justify-content: flex-end;
+    padding: 206px 0px 206px 0px;
+    background-image: url(images/banner/banner-background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.banner-wrapper{
+    display:flex;
+    flex-direction: column;
+	align-items: flex-start;
+    width:100%;
+    max-width: 731px;
+}
+.banner-text-upper{
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 48px;
+}
+.banner-text-lower{
+    width:100%;
+    max-width: 474px;
+    margin-top:32px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: #787878;
+    letter-spacing: 0.005em;
+    line-height: 28px;
+}
+.banner-text-button{
+    margin-top:38px;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #10c9c3;
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing:0.01em;
+}
+.banner-text-button:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
+.about{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+}
+.about-wrapper{
+    width:100%;
+    max-width: 605px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.about-text-upper{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-text-lower{
+    margin-top: 41px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.005em;
+    line-height: 24px;
+    color: #787878;
+    text-align: center;
+}
+.about-text-signature{
+    width:100%;
+    margin-top: 38px;
+    text-align:center;
+}
+.skills{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+.skills-photo-wrapper{
+    width:50%;
+    background-image: url(images/skills/skills-photo.png);
+    padding-bottom: 570px;
+    background-position: center center;
+}
+.skills-wrapper{
+    width:50%;
+    display:flex;
+    align-items: flex-start;
+    background-color: #f8f9f9;
+}
+.skills-text-wrapper{
+    display:flex;
+    width:100%;
+    padding: 164px 0px 0px 100px;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content: center;
+}
+.skills-text-upper{
+    display:flex;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    font-weight: bold;
+}
+.skills-text-lower{
+    margin-top:39px;
+    font-family: 'Montserrat', sans-serif;     
+    font-size: 12px;
+    font-weight: bold;
+    display:flex;
+    flex-direction: column;
+}
+.skills-empty-bar{
+    margin-top: 19px;
+    width:100%;
+    max-width: 500px;
+    height:3px;
+    background-color: #d8d8d8;
+}
+.skills-filled-bar{
+    height:3px;
+    background-color: #10c9c3;
+}
+.numbers{
+    width:100%;
+    display:flex;
+    background-color: #10c9c3;
+    padding: 120px 20px 120px 20px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.numbers-wrapper{
+    width:100%;
+    max-width:1703px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.numbers-blocks-wrapper{
+    max-width: 230px;
+    width:100%;
+    display:flex;
+}
+.numbers-photo{
+    display:flex;
+}
+.numbers-text-wrapper{
+    width:100%;
+    display:flex;
+    margin-left: 30px;
+    flex-direction: column;
+}
+.numbers-text-upper{
+    font-family: 'Montserrat', sans-serif; 
+    font-size:18px;
+    font-weight: bold;
+    color: white;
+}
+.numbers-text-lower{
+    display:flex;
+    width:100%;
+    font-family: 'Montserrat', sans-serif; 
+    font-size:12px;
+    font-weight: bold;
+    color:white;
+}
+.work-wrapper{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+.work-photo-wrapper{
+    width:100%;
+    position: relative;
+}
+.work-photo{
+    width:100%;
+    height:300px;
+    background-size: cover;
+    background-position: center center;
+    position:absolute;
+}
+.work-photo:hover{
+    background-image:url(images/work/work-hover.png) !important;
+    background-color: rgba(0,0,0,0.75) !important;
+    background-size:50px 30px;
+    background-repeat: no-repeat;
+	transition: background-color 0.3s, background-image 0s;
+}
+.work-photo-mask{
+    width:100%;
+    height:300px;
+    background-size:cover;
+    background-position: center center;
+    z-index: -1;
+    position: relative;
+}
+.work-photo-mask:hover{
+    position: absolute;
+    display:block;
+    width:25%;
+    height:300px;
+}
+.work-text-wrapper{
+    padding: 45px 0px 45px 0px;
+    display:flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+.work-text{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px;
+    color: #8e8e8e;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+}
+.workprocess{
+    width:100%;
+    padding: 100px 0px 100px 0px;
+}
+.workprocess-wrapper{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.workprocess-text-upper{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    font-weight: bold;
+    color: #191919;
+}
+.workprocess-text-lower{
+    margin-top: 41px;
+    max-width: 500px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    color: #787878;
+    text-align: center;
+}
+.workprocess-text-video{
+    margin-top: 57px;
+    max-width: 1170px;
+}
+.workprocess-video{
+    width:1013.33px;
+    height: 570px;
+}
+.services{
+    width:100%;
+    padding:40px 120px 100px 120px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+.services-wrapper{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.services-blocks-wrapper{
+    width:100%;
+    max-width: 235px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.services-text-upper{
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px;
+    font-weight: bold;
+    color:#191919;
+    text-align: center;
+}
+.services-text-lower{
+    margin-top: 20px;
+    font-family: 'Nunito Sans', sans-serif;   
+    font-size: 16px;
+    color: #787878;
+    text-align: center;
+}
+.testimonials{
+    padding:172.5px 0px 172.5px 0px;
+    width:100%;
+    background-color: #10c9c3;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.testimonials-text-upper{
+    width: 820px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif; 
+    max-width: 820px;
+    color: #ffffff;
+    text-align: center;
+    height:102px;
+}
+.testimonials-text-lower{
+    margin-top: 36px;
+    font-size:12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align:center;
+}
+.clients{
+    width:100%;
+    padding: 100px 120px 100px 120px;
+}
+.clients-wrapper{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact{
+    padding: 100px 0px 100px 0px;
+    background-color: #f5f5f5;
+}
+.contact-wrapper{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-text-upper{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 30px;
+    font-weight: bold;
+    color: #1d1d1d;
+}
+.contact-text-lower{
+    max-width: 540px;
+    margin-top: 35px;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 16px;
+    text-align: center;
+    color: #787878;
+}
+.contactForm{
+    width: 100%;
+    max-width: 680px;
+    margin-top: 38px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-input-name{
+    width:100%;
+    max-width: 325px;
+    height: 48px;
+    border:0px;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+	outline: none;
+}
+.form-input-email{
+    width:100%;
+    max-width: 325px;
+    height: 48px;
+    border:0px;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+	outline: none;
+}
+.form-input-wrapper{
+    width:100%;
+    max-width: 680px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-input-title{
+    width:100%;
+    margin-top: 30px;
+    height: 48px;
+    border:0px;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+	outline: none;
+}
+.form-input-comment{
+    width:100%;
+    margin-top: 30px;
+    height: 170px;
+    border:0px;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 15px;
+    padding: 18px 20px 18px 20px;
+    resize:none;
+	outline: none;
+}
+.form-submit{
+    width:100%;
+    margin-top:30px;
+    max-width:180px;
+    height:54px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #10c9c3;
+    border:0px;
+	outline: none;
+}
+footer{
+    padding: 100px 0px 100px 0px;
+    background-color: #141414;
+}
+.footer-wrapper{
+    width: 100%;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-left-container{
+    width: 100%;
+    max-width: 630px;
+    display:flex;
+    justify-content: space-between;
+}
+.footer-left-container-left-text-upper{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    color:white;
+}
+.footer-left-container-left-text-lower{
+    margin-top: 28px;
+    width: 100%;
+    max-width: 225px;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 15px;
+    color: #bcbcbc;
+}
+.footer-left-container-right-text-upper{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 15px;
+    color: #bcbcbc;
+}
+.footer-left-container-right-text-lower{
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 15px;
+    color: #bcbcbc;    
+}
+.footer-right-container{
+    width: 100%;
+    max-width: 370px;
+    display:flex;
+    justify-content: space-between;
+}
+.footer-right-container-left-menu-wrapper{
+    width:100%;
+    max-width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-right-container-left-menu-wrapper-text-left{
+    display:flex;
+    flex-direction: column;
+}
+.footer-right-container-left-menu-text-left{
+    margin-bottom: 10px;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 15px;
+    color: #bcbcbc;
+}
+.footer-right-container-right-menu-wrapper{
+    width:100%;
+    max-width: 70px;
+    display:flex;
+    flex-direction: column;
+}
+.footer-right-container-right-menu-text{
+    margin-bottom: 10px;
+    font-family: 'Nunito Sans', sans-serif; 
+    font-size: 15px;
+    color: #bcbcbc;    
+}
+@media screen and (max-width: 1500px){
+    .banner{
+        justify-content: center;
+        padding: 150px 0px 150px 0px;
+        background-image: url(images/banner/banner-background-rwd.png);
+    }
+    .banner-wrapper{
+        align-items: center;
+    }
+    .banner-text-lower{
+        text-align:center;
+    }
+    .numbers{
+        padding: 120px 20px 120px 83px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .banner{
+        padding:150px 0px 100px 0px;
+    }
+    .skills-wrapper{
+        width:100%;
+        background-image: url(images/skills/skills-photo-rwd.png);
+    }
+    .skills-text-wrapper{
+        width:100%;
+        padding: 164px 100px 164px 100px;
+        align-items: center;
+    }
+    .skills-text-upper{
+        font-size:32px;
+    }
+    .skills-text-lower{
+        font-size:14px;
+    }
+    .skills-photo-wrapper{
+        display:none;
+    }
+    .workprocess-video{
+        width:911px;
+        height:513px;
+    }
+    .services{
+        padding:40px 40px 100px 40px;
+    }
+    .footer-left-container{
+        max-width:420px;
+    }
+}
+@media screen and (max-width: 1024px){
+    
+}
